@@ -293,6 +293,10 @@ header table {
   color: rgb(255, 23, 22);
   text-decoration: none;
 }
+#footer ul li {
+  display: inline;
+  list-style-type: none;
+}
 ::placeholder {
   color: #000;
 }
@@ -365,9 +369,9 @@ button:focus {
     width: 100%;
     display: block;
   }
-  #inner_table tr td {
+  /* #inner_table tr td {
     padding: 10px 0px !important;
-  }
+  } */
   #contact form input {
     width: 90%;
   }
