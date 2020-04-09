@@ -173,8 +173,7 @@ header table {
       rgb(255, 23, 22, 0.8),
       rgb(255, 23, 22, 0.8)
     ),
-    url("https://images.unsplash.com/photo-1506057527569-6a0285b2fcc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=60")
-      center center;
+    url("img/IMG_0957.JPG") center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -296,6 +295,13 @@ header table {
 #footer ul li {
   display: inline;
   list-style-type: none;
+}
+#footer .credit {
+  text-align: center;
+  padding-left: 40px;
+}
+#footer .credit p {
+  margin: 16px 0px 0px 0px;
 }
 ::placeholder {
   color: #000;
