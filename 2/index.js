@@ -61,6 +61,20 @@ setTimeout(function() {
 }, 1650);
 
 $(document).ready(function() {
+  $("#bt1").click(function() {
+    $("#fr1").attr(
+      "action",
+      "mailto:dudu.gemmal@gmail.com?subject=" +
+        $("#tb1").val() +
+        $("#tb2").val() +
+        "&body=" +
+        $("#tb3").val()
+    );
+    $("#fr1").submit();
+  });
+});
+
+$(document).ready(function() {
   $("a").on("click", function(event) {
     if (this.hash !== "") {
       event.preventDefault();
