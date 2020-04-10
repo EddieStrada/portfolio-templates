@@ -198,6 +198,7 @@ header table {
   width: 100%;
   height: auto;
   margin: 4.5% 0px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.363);
   transition: 0.4s ease-in-out;
 }
 #photos img:hover {
